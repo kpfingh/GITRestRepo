@@ -18,7 +18,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class Utility {
 	static RequestSpecification req;
-	System.out.println("This line is added from GitHub");
 	public RequestSpecification requestSpecification() throws IOException {
 		if(req==null) { // This if clause is used to append the request and response in log-file
 						//If this is not done, evrery time this file will be created and only
