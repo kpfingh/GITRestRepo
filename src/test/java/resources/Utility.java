@@ -19,6 +19,8 @@ import io.restassured.specification.RequestSpecification;
 public class Utility {
 	static RequestSpecification req;
 	public RequestSpecification requestSpecification() throws IOException {
+		
+		System.out.println("added in IST branch");
 		if(req==null) { // This if clause is used to append the request and response in log-file
 						//If this is not done, evrery time this file will be created and only
 				//the latest request and response will be logged(mentioned in examples section of feature file) 
